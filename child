@@ -1,0 +1,6 @@
+#!/bin/bash
+#сценарий child
+echo "called from father..i am the child"
+echo "film name is :$FILM"
+FILM="Die Hard"
+echo "changing fim to :$FILM"
