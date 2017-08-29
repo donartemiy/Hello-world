@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Hello world this is $0 calling"

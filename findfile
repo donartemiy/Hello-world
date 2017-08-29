@@ -1,0 +1,3 @@
+#!/bin/bash
+#findfile
+find / -name $1 -print
