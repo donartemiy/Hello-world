@@ -1,0 +1,11 @@
+#!/bin/bash
+#сценарий father
+echo "this is the father"
+FILM="A Few Good Men"
+echo "I like the film :$FILM"
+#вызов сценария child
+#сначала экспортируйте переменную
+export FILM
+child
+echo "back to father"
+echo "and the film is :$FILM"
